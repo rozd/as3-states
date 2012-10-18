@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<flexLibProperties includeAllClasses="true" useMultiPlatformConfig="false" version="3">
+  <includeClasses>
+    <classEntry path="org.log5f.as3.states.States"/>
+    <classEntry path="org.log5f.as3.states.builder.StateBuilder"/>
+    <classEntry path="org.log5f.as3.states.core.StateHolder"/>
+    <classEntry path="org.log5f.as3.states.builder.StatePart"/>
+    <classEntry path="org.log5f.as3.states.transition.StateTransition"/>
+  </includeClasses>
+  <includeResources/>
+  <namespaceManifests/>
+</flexLibProperties>
