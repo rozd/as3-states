@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- This is an auto generated file and is not intended for modification. -->
+
+<s:Application xmlns:fx="http://ns.adobe.com/mxml/2009"
+			   xmlns:s="library://ns.adobe.com/flex/spark"
+			   xmlns:flexui="flexunit.flexui.*"
+			   minWidth="955" minHeight="600" creationComplete="onCreationComplete()">
+	<fx:Script>
+		<![CDATA[
+			import org.log5f.as3.states.ProofOfConceptTest;
+			import org.log5f.as3.states.overrides.AddChildTest;
+			import org.log5f.as3.states.overrides.AddHandlerTest;
+			import org.log5f.as3.states.overrides.CallMethodTest;
+			import org.log5f.as3.states.overrides.CallSetterMethodTest;
+			import org.log5f.as3.states.overrides.RemoveChildTest;
+			import org.log5f.as3.states.overrides.SetPropertyTest;
+			
+			public function currentRunTestSuite():Array
+			{
+				var testsToRun:Array = new Array();
+				testsToRun.push(org.log5f.as3.states.ProofOfConceptTest);
+				testsToRun.push(org.log5f.as3.states.overrides.AddChildTest);
+				testsToRun.push(org.log5f.as3.states.overrides.AddHandlerTest);
+				testsToRun.push(org.log5f.as3.states.overrides.CallMethodTest);
+				testsToRun.push(org.log5f.as3.states.overrides.CallSetterMethodTest);
+				testsToRun.push(org.log5f.as3.states.overrides.RemoveChildTest);
+				testsToRun.push(org.log5f.as3.states.overrides.SetPropertyTest);
+				return testsToRun;
+			}
+			
+			
+			private function onCreationComplete():void
+			{
+				testRunner.runWithFlexUnit4Runner(currentRunTestSuite(), "as3-states-test");
+			}
+			
+		]]>
+	</fx:Script>
+	<fx:Declarations>
+		<!-- Place non-visual elements (e.g., services, value objects) here -->
+	</fx:Declarations>
+	<flexui:FlexUnitTestRunnerUISpark id="testRunner" portNumber="1147">
+	</flexui:FlexUnitTestRunnerUISpark>
+</s:Application>

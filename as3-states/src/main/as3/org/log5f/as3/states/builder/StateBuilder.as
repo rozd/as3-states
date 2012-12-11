@@ -1,11 +1,17 @@
 package org.log5f.as3.states.builder
 {
+	import org.log5f.as3.states.core.StateHolder;
+
 	public interface StateBuilder
 	{
-		function child(name:String):StatePart;
+		function based(state:String):StateBuilder;
 		
-		function add(name:String, instance:Object):StatePart;
+		function child(name:String):StateOverrideBuilder;
 		
-		function remove(name:String):StatePart;
+		function add(name:String, instance:Object):StateOverrideBuilder;
+		
+		function remove(name:String):StateOverrideBuilder;
+		
+		function build():StateHolder;
 	}
 }

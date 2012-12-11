@@ -8,9 +8,27 @@ Please click on the "Refresh" icon in "FlexUnit Results" view to regenerate this
 			   xmlns:mx="library://ns.adobe.com/flex/mx" minWidth="955" minHeight="600">
 	<fx:Script>
 		<![CDATA[
-			import org.log5f.as3.states.StatesTest;
+			import org.log5f.as3.states.overrides.CallSetterMethodTest;
+			import org.log5f.as3.states.overrides.CallMethodTest;
+			import org.log5f.as3.states.overrides.RemoveChildTest;
+			import org.log5f.as3.states.overrides.SetPropertyTest;
+			import org.log5f.as3.states.overrides.AddHandlerTest;
+			import org.log5f.as3.states.overrides.AddChildTest;
+			import org.log5f.as3.states.ProofOfConceptTest;
 			
-			private var org_log5f_as3_states_StatesTest_obj:org.log5f.as3.states.StatesTest;
+			private var org_log5f_as3_states_StatesTest_obj:org.log5f.as3.states.ProofOfConceptTest;
+			
+			private var org_log5f_as3_states_overrides_AddChildTest_obj:org.log5f.as3.states.overrides.AddChildTest;
+			
+			private var org_log5f_as3_states_overrides_AddHandlerTest_obj:org.log5f.as3.states.overrides.AddHandlerTest;
+			
+			private var org_log5f_as3_states_overrides_SetPropertyTest_obj:org.log5f.as3.states.overrides.SetPropertyTest;
+			
+			private var org_log5f_as3_states_overrides_RemoveChildTest_obj:org.log5f.as3.states.overrides.RemoveChildTest;
+			
+			private var org_log5f_as3_states_overrides_CallMethodTest_obj:org.log5f.as3.states.overrides.CallMethodTest;
+			
+			private var org_log5f_as3_states_overrides_CallSetterMethodTest_obj:org.log5f.as3.states.overrides.CallSetterMethodTest;
 		]]>
 	</fx:Script>
 	<fx:Declarations>

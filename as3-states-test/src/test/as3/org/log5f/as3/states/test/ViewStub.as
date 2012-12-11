@@ -14,5 +14,6 @@ package org.log5f.as3.states.test
 		
 		public var greetingLable:TextField;
 		
+		public var firstNameLabel:TextField;
 	}
 }

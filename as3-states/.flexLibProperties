@@ -4,8 +4,20 @@
     <classEntry path="org.log5f.as3.states.States"/>
     <classEntry path="org.log5f.as3.states.builder.StateBuilder"/>
     <classEntry path="org.log5f.as3.states.core.StateHolder"/>
-    <classEntry path="org.log5f.as3.states.builder.StatePart"/>
+    <classEntry path="org.log5f.as3.states.builder.StateOverrideBuilder"/>
     <classEntry path="org.log5f.as3.states.transition.StateTransition"/>
+    <classEntry path="org.log5f.as3.states.core.Override"/>
+    <classEntry path="org.log5f.as3.states.overrides.SetProperty"/>
+    <classEntry path="org.log5f.as3.states.overrides.CallMethod"/>
+    <classEntry path="org.log5f.as3.states.overrides.AddChild"/>
+    <classEntry path="org.log5f.as3.states.overrides.RemoveChild"/>
+    <classEntry path="org.log5f.as3.states.overrides.AddHandler"/>
+    <classEntry path="org.log5f.as3.states.builder.StateTransitionBuilder"/>
+    <classEntry path="org.log5f.as3.states.builder.StateTweenBuilder"/>
+    <classEntry path="org.log5f.as3.states.builder.StateHandlerBuilder"/>
+    <classEntry path="org.log5f.as3.states.overrides.CallSetterMethod"/>
+    <classEntry path="org.log5f.as3.states.core.State"/>
+    <classEntry path="org.log5f.as3.states.utils.Factory"/>
   </includeClasses>
   <includeResources/>
   <namespaceManifests/>

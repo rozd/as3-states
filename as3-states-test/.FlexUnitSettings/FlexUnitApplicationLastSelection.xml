@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testrun name="" >
+<testsuite  name="Default Test Suite" project="as3-states-test">
+<testsuite name="org.log5f.as3.states:ProofOfConceptTest" type="testcaseclass"/>
+<testsuite name="org.log5f.as3.states.overrides:AddChildTest" type="testcaseclass"/>
+<testsuite name="org.log5f.as3.states.overrides:AddHandlerTest" type="testcaseclass"/>
+<testsuite name="org.log5f.as3.states.overrides:CallMethodTest" type="testcaseclass"/>
+<testsuite name="org.log5f.as3.states.overrides:CallSetterMethodTest" type="testcaseclass"/>
+<testsuite name="org.log5f.as3.states.overrides:RemoveChildTest" type="testcaseclass"/>
+<testsuite name="org.log5f.as3.states.overrides:SetPropertyTest" type="testcaseclass"/>
+</testsuite>
+<portNumber value="1147" />
+</testrun>
